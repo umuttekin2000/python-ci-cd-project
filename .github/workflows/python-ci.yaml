@@ -21,3 +21,11 @@ jobs:
         run: |
           python --version
           which python
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install ".[dev]"
+      - name: Linting and format checks
+        run: |
+          ruff check .
+          black --check .
