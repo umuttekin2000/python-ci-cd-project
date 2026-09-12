@@ -52,7 +52,7 @@ dist_path = "dist/"
 upload_to_pypi = false
 upload_to_release = true
 hvcs = "github"
-commit_message = "chore(release): {version} [skip ci]:
+commit_message = "chore(release): {version} [skip ci]"
 
 [tool.semantic_release.branches.main]
 match = "main"
