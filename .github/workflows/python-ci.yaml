@@ -24,7 +24,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install --upgrade pip
+          python -m pip install --upgrade pip
           pip install ".[dev]"
 
       - name: Linting and format checks
@@ -57,7 +57,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install --upgrade pip
+          python -m pip install --upgrade pip
           pip install ".[dev]"
 
       - name: Run tests
@@ -71,7 +71,7 @@ jobs:
       - lint-static-checks
     permissions:
       contents: write
-      id-token: write  
+      id-token: write 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -86,8 +86,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install --upgrade pip
-          pip install python-semantic-release
+          python -m pip install --upgrade pip
+          pip install build python-semantic-release
 
       - name: Build the Python Project
         run: |
@@ -97,11 +97,11 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: simple-http-checker-${{ github.sha }}
-          path: dist/ 
+          path: dist/
+
       - name: Create Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          semantic_release version
-          semantic_release publish  
-          
+          semantic-release version
+          semantic-release publish
