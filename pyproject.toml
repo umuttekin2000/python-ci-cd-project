@@ -28,9 +28,9 @@ dev = [
 check-urls = "simple_http_checker.cli:main"
 
 [tool.ruff]
-line-length = 88    
+line-length = 88
 
-[tool.black] 
+[tool.black]
 line-length = 88
 
 [tool.mypy]
@@ -49,9 +49,7 @@ addopts = "-rA -s -v"
 version_toml = ["pyproject.toml:project.version"]
 build_command = "pip install build && python -m build"
 dist_path = "dist/"
-upload_to_pypi = false
-upload_to_release = true
-hvcs = "github"
+upload_to_vcs_release = true
 commit_message = "chore(release): {version} [skip ci]"
 
 [tool.semantic_release.branches.main]
