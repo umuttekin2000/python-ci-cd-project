@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.0.5 (2026-09-12)
+
+### Bug Fixes
+
+- **build**: Add wheel dependency and update project name
+  ([`f28c60e`](https://github.com/umuttekin2000/python-ci-cd-project/commit/f28c60eae6f3ddf8167e35c9dfec68d5bba22ba2))
+
+
 ## v1.0.4 (2026-09-12)
 
 ### Bug Fixes
