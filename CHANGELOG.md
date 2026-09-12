@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.1.1 (2026-09-12)
+
+### Bug Fixes
+
+- **ci**: Add Publish to PyPI
+  ([`d26d57d`](https://github.com/umuttekin2000/python-ci-cd-project/commit/d26d57dfb430f6c172abbf546202cabbce8a511c))
+
+
 ## v1.1.0 (2026-09-12)
 
 ### Features
