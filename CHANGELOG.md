@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.0.6 (2026-09-12)
+
+### Bug Fixes
+
+- **ci**: Publish version update
+  ([`490b22e`](https://github.com/umuttekin2000/python-ci-cd-project/commit/490b22e19eaa38c240cf3d98354cc9df37d6e9c3))
+
+
 ## v1.0.5 (2026-09-12)
 
 ### Bug Fixes
