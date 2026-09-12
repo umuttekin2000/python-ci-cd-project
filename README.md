@@ -7,6 +7,6 @@ This repo contains the code for the CI/CD section of my Python project.
 [x] Add a simple GHA workflow
 [x] Add linting(ruff) and format checks(black)
 [x] Add typing(mypy) and security checks(bandit)
-[] Add test automation
+[x] Add test automation
 [] Build Python project
 [] Publish the project to both TestPyPi and PyPi when new tag pushed
