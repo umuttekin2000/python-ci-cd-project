@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.0.3 (2026-09-12)
+
+### Bug Fixes
+
+- **ci**: Adding enviroment again
+  ([`d5c39aa`](https://github.com/umuttekin2000/python-ci-cd-project/commit/d5c39aa3ac07d4e4a501e84a59e9336009de3d43))
+
+
 ## v1.0.2 (2026-09-12)
 
 ### Bug Fixes
