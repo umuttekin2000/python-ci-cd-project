@@ -49,8 +49,11 @@ addopts = "-rA -s -v"
 version_toml = ["pyproject.toml:project.version"]
 build_command = "pip install build && python -m build"
 dist_path = "dist/"
-upload_to_vcs_release = true
 commit_message = "chore(release): {version} [skip ci]"
+
+[tool.semantic_release.publish]
+dist_glob_patterns = ["dist/*"]
+upload_to_vcs_release = true
 
 [tool.semantic_release.branches.main]
 match = "main"
