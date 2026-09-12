@@ -1,10 +1,10 @@
 [build-system]
-requires = ["setuptools>=77.0"]
+requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "simple-http-checker"
-version = "1.0.4"
+name = "simple-http-checker-new"
+version = "1.0.3"
 description = "A simple CLI tool to check the status of URLs."
 readme = "README.md"
 requires-python = ">=3.9"
