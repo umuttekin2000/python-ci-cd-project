@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.0.4 (2026-09-12)
+
+### Bug Fixes
+
+- **ci**: Add environment correctly.
+  ([`ba1e68f`](https://github.com/umuttekin2000/python-ci-cd-project/commit/ba1e68f74562c88f6e4a7f80793f71ba4dac3030))
+
+
 ## v1.0.3 (2026-09-12)
 
 ### Bug Fixes
